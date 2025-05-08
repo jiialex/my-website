@@ -2177,9 +2177,6 @@ td:last-child {
     width : 100%;
 }
 
-/* --------------------------------------------------------------------
- * ## stats tabs
- * -------------------------------------------------------------------- */
 .stats-tabs {
     padding : 0;
     margin  : var(--vspace-1) 0;
@@ -2223,14 +2220,6 @@ td:last-child {
     color       : var(--color-text-light);
 }
 
-
-
-/* ===================================================================
- * # PROJECT-WIDE SHARED STYLES
- *
- *
- * ------------------------------------------------------------------- */
-
 .wide {
     max-width : var(--width-wide);
 }
@@ -2247,13 +2236,6 @@ td:last-child {
     opacity : 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## media classes
- * ------------------------------------------------------------------- */
-
-/* floated image
- */
-
 img.u-pull-right {
     margin : var(--vspace-0_5) 0 var(--vspace-0_5) var(--vspace-0_875);
 }
@@ -2262,8 +2244,6 @@ img.u-pull-left {
     margin : var(--vspace-0_5) var(--vspace-0_875) var(--vspace-0_5) 0;
 }
 
-/* responsive video container
- */
 .video-container {
     position       : relative;
     padding-bottom : 56.25%;
@@ -2282,9 +2262,7 @@ img.u-pull-left {
     height   : 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## theme-specific typography classes
- * ------------------------------------------------------------------- */
+
 .text-pretitle {
     font-family    : var(--font-1);
     font-size      : var(--text-sm);
@@ -2321,12 +2299,8 @@ img.u-pull-left {
     line-height : 1.0740;
     margin-top  : 0;
 }
-
-/* ------------------------------------------------------------------- 
- * ## MailtoUI style overrides
- * ------------------------------------------------------------------- */
-.mailtoui-modal {
-    --mailtoui-modal-box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08), 0 8px 8px rgba(0, 0, 0, 0.08);
+{
+        --mailtoui-modal-box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08), 0 8px 8px rgba(0, 0, 0, 0.08);
     --mailtoui-modal-head-bgcolor       : var(--color-gray-18);
     --mailtoui-modal-head-title-color   : white;
     --mailtoui-modal-body-bgcolor       : var(--color-gray-11);
@@ -2447,10 +2421,6 @@ img.u-pull-left {
     color       : white;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * project-wide shared styles
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
     .text-pretitle.with-line {
         padding-left : 3rem;
@@ -2465,12 +2435,6 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # PAGE WRAP
- *
- *
- * ------------------------------------------------------------------- */
-
 .s-pagewrap {
     --circle-width  : 70vw;
     --header-height : 6.4rem;
@@ -2481,9 +2445,6 @@ img.u-pull-left {
     position        : relative;
 }
 
-/* --------------------------------------------------------------------
- * ## circles
- * -------------------------------------------------------------------- */
 .s-pagewrap .circles,
 .s-pagewrap .circles span {
     position : absolute;
@@ -2535,23 +2496,11 @@ img.u-pull-left {
     visibility : hidden;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * page-wrap
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
     .s-pagewrap .circles {
         top : calc(var(--header-height) + 5vh);
     }
 }
-
-
-
-/* ===================================================================
- * # SITE HEADER
- *
- *
- * ------------------------------------------------------------------- */
 
 .s-header {
     --box-shadow : 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 2px rgba(0, 0, 0, 0.06), 0 4px 4px rgba(0, 0, 0, 0.06), 0 8px 8px rgba(0, 0, 0, 0.06);
@@ -2571,9 +2520,6 @@ img.u-pull-left {
     border-bottom    : 1px solid var(--color-border);
 }
 
-/* --------------------------------------------------------------------
- * ## main navigation
- * -------------------------------------------------------------------- */
 .mobile-home-link a,
 .main-nav a {
     display             : block;
@@ -2637,9 +2583,6 @@ img.u-pull-left {
     border-right : none;
 }
 
-/* --------------------------------------------------------------------
- * ## mobile menu toggle
- * -------------------------------------------------------------------- */
 .mobile-menu-toggle {
     display  : block;
     width    : var(--header-height);
@@ -2808,12 +2751,6 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # INTRO
- *
- *
- * ------------------------------------------------------------------- */
-
 .s-intro {
     --gutter               : 6rem;
     --text-huge-multiplier : 1;
@@ -2833,9 +2770,6 @@ img.u-pull-left {
     padding-right : 5vw;
 }
 
-/* --------------------------------------------------------------------
- * ## intro social
- * -------------------------------------------------------------------- */
 .intro-social {
     z-index          : 1;
     list-style       : none;
@@ -2866,9 +2800,6 @@ img.u-pull-left {
     color : white;
 }
 
-/* --------------------------------------------------------------------
- * ## intro scrolldown
- * -------------------------------------------------------------------- */
 .intro-scrolldown {
     display         : block;
     height          : var(--vspace-1);
@@ -2896,10 +2827,6 @@ img.u-pull-left {
     fill : var(--color-1);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * intro
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
     .s-intro {
         --text-huge-multiplier : .92;
@@ -3012,20 +2939,11 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # ABOUT
- *
- *
- * ------------------------------------------------------------------- */
-
 .s-about {
     padding-top    : var(--vspace-4);
     padding-bottom : var(--vspace-3);
 }
 
-/* --------------------------------------------------------------------
- * ## about info
- * -------------------------------------------------------------------- */
 .about-info {
     --gutter    : 0;
     width       : 100%;
@@ -3150,10 +3068,6 @@ img.u-pull-left {
     margin-top     : -.2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * about
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1300px) {
     .about-info__text {
         padding : var(--vspace-2) 8rem var(--vspace-1_5) 0;
@@ -3202,13 +3116,6 @@ img.u-pull-left {
 }
 
 
-
-/* ===================================================================
- * # WORKS
- *
- *
- * ------------------------------------------------------------------- */
-
 .s-works {
     padding-top    : var(--vspace-5);
     padding-bottom : var(--vspace-3_5);
@@ -3218,9 +3125,6 @@ img.u-pull-left {
     margin-top : 0;
 }
 
-/* --------------------------------------------------------------------
- * ## works portfolio
- * -------------------------------------------------------------------- */
 .folio-list {
     --item-min-height : var(--vspace-4_5);
     list-style        : none;
@@ -3386,9 +3290,6 @@ img.u-pull-left {
     transform : scale(1.2);
 }
 
-/* ------------------------------------------------------------------- 
- * ## modal popup
- * ------------------------------------------------------------------- */
 .modal-popup {
     max-width        : 680px;
     background-color : white;
@@ -3654,13 +3555,6 @@ img.u-pull-left {
     }
 }
 
-
-
-/* ===================================================================
- * # CONTACT
- *
- *
- * ------------------------------------------------------------------- */
 
 .contact-top {
     padding-top : var(--vspace-5);

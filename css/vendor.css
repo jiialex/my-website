@@ -1,4 +1,3 @@
-
 code[class*="language-"],
 pre[class*="language-"] {
     color           : #ccc;
@@ -446,8 +445,6 @@ button.swiper-pagination-bullet {
     transition : 200ms transform, 200ms right;
 }
 
-/* Progress */
-
 .swiper-pagination-progressbar {
     background : rgba(0, 0, 0, 0.25);
     position   : absolute;
@@ -495,9 +492,6 @@ button.swiper-pagination-bullet {
 .swiper-pagination-lock {
     display : none;
 }
-
-/* Scrollbar */
-
 .swiper-scrollbar {
     border-radius    : 10px;
     position         : relative;
@@ -562,12 +556,8 @@ button.swiper-pagination-bullet {
     cursor : move;
 }
 
-/* Preloader */
-
 :root {
-    /*
-    --swiper-preloader-color: var(--swiper-theme-color);
-    */
+    
 }
 
 .swiper-lazy-preloader {
@@ -600,8 +590,6 @@ button.swiper-pagination-bullet {
         transform : rotate(360deg);
     }
 }
-
-/* a11y */
 
 .swiper-container .swiper-notification {
     position       : absolute;
@@ -716,14 +704,6 @@ button.swiper-pagination-bullet {
     -webkit-backface-visibility : hidden;
     backface-visibility         : hidden;
 }
-
-
-
-/* ===================================================================
- * # Basiclightbox
- *
- *
- * ------------------------------------------------------------------- */
 
 .basicLightbox {
     position        : fixed;
